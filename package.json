@@ -1,0 +1,10 @@
+{
+  "name": "pctouch",
+  "version": "1.0.0",
+  "author": "fashionLee",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-uglify": "latest"
+  }
+}
