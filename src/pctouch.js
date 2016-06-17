@@ -113,7 +113,11 @@
             mouseObj.type == 2 ;
             mouseObj.mposition = position(e) ;
             moveaction&&moveaction.apply() ;
-            e.preventDefault() ;
+            if (document.all) {
+             e.returnValue = false;
+            } else {
+             e.preventDefault();
+            }
         }
     } ;
 
