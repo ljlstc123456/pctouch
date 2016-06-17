@@ -1,5 +1,6 @@
-pctouch 为 Web网页 特别设计的鼠标手势事件监听器 (https://travis-ci.org/weui/weui)
-====
+
+pctouch 为 Web网页 特别设计的鼠标手势事件监听器
+
 
 ## 概述
 
@@ -10,4 +11,3 @@ pctouch 为 Web网页 特别设计的鼠标手势事件监听器 (https://travis
 The MIT License(http://opensource.org/licenses/MIT)
 
 请自由地享受和参与开源
-
