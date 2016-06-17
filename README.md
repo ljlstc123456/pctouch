@@ -8,21 +8,20 @@ pctouch 为 Web网页 特别设计的鼠标手势事件监听器
 
 ### 使用
 ```html
-
+引入pctouch.js
 ```
 ```javascript
-// app.js
 
-$("#test").pctouch("swipeRight",function(){
+$("#test").pctouch("swipeRight",function(e){
     alert("你是往右滑的吧") ;
 }) ;
-$("#test").pctouch("swipeLeft",function(){
+$("#test").pctouch("swipeLeft",function(e){
     alert("你是往左滑的吧") ;
 }) ;
-$("#test").pctouch("swipeUp",function(){
+$("#test").pctouch("swipeUp",function(e){
     alert("你是往上滑的吧") ;
 }) ;
-$("#test").pctouch("swipeDown",function(){
+$("#test").pctouch("swipeDown",function(e){
     alert("你是往下滑的吧") ;
 }) ;
 ```
