@@ -39,8 +39,8 @@
         'swipeLeft':function(obj,cb,that){
             events(obj,function(e){
                 touchend(e) ;
-                if(mouseObj.dposition[0]-mouseObj.uposition[0]>100
-                   &&Math.abs(mouseObj.dposition[1]-mouseObj.uposition[1])<50 
+                if(mouseObj.dposition[0]-mouseObj.uposition[0]>30
+                   &&Math.abs(mouseObj.dposition[1]-mouseObj.uposition[1])<100 
                    &&mouseObj.times<10){
                    cb&&cb.apply(that,[e]);
                 }
@@ -49,8 +49,8 @@
         'swipeRight':function(obj,cb,that){
             events(obj,function(e){
                 touchend(e) ;
-                if(mouseObj.uposition[0] - mouseObj.dposition[0]>100
-                   &&Math.abs(mouseObj.dposition[1]-mouseObj.uposition[1])<50 
+                if(mouseObj.uposition[0] - mouseObj.dposition[0]>30
+                   &&Math.abs(mouseObj.dposition[1]-mouseObj.uposition[1])<100 
                    &&mouseObj.times<10){
                     cb&&cb.apply(that,[e]);
                 }
@@ -59,8 +59,8 @@
         'swipeDown':function(obj,cb,that){
             events(obj,function(e){
                 touchend(e) ;
-                if(mouseObj.uposition[1] - mouseObj.dposition[1]>100
-                   &&Math.abs(mouseObj.dposition[0]-mouseObj.uposition[0])<50 
+                if(mouseObj.uposition[1] - mouseObj.dposition[1]>30
+                   &&Math.abs(mouseObj.dposition[0]-mouseObj.uposition[0])<100 
                    &&mouseObj.times<10){
                     cb&&cb.apply(that,[e]);
                 }
@@ -69,8 +69,8 @@
         'swipeUp':function(obj,cb,that){
             events(obj,function(e){
                 touchend(e) ;
-                if(mouseObj.dposition[1] - mouseObj.uposition[1]>100
-                   &&Math.abs(mouseObj.dposition[0]-mouseObj.uposition[0])<50 
+                if(mouseObj.dposition[1] - mouseObj.uposition[1]>30
+                   &&Math.abs(mouseObj.dposition[0]-mouseObj.uposition[0])<100 
                    &&mouseObj.times<10){
                     cb&&cb.apply(that,[e]);
                 }
