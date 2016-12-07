@@ -2,7 +2,6 @@
 /**
  * 方法说明
  * @param type tk:点击事件 tup抬起事件 tdown按下事件
- * 
  */
 (function(window){
     var mouseObj = {
