@@ -1,8 +1,10 @@
-
-/**
- * 方法说明
- * @param type tk:点击事件 tup抬起事件 tdown按下事件
- * 作者:李发顺
+/*!
+ * pctouch v1.0.0
+ *
+ * https://github.com/ljlstc123456/pctouch
+ *
+ * Copyright (c) 2015 李发顺
+ * Released under the MIT license
  */
 (function(window){
     var mouseObj = {
